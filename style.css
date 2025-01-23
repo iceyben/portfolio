@@ -47,6 +47,10 @@ img {
 }
 .navbar {
   display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
   justify-content: space-around;
   align-items: center;
 }
@@ -464,82 +468,4 @@ div.item3 > a > i {
 
 .text > p {
   font-size: 12px;
-}
-
-#projects {
-  display: grid;
-  padding: 0 70px;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 4fr;
-  grid-template-areas:
-    "project-head project-head project-head"
-    "project1 project2 project3";
-}
-
-.project-head {
-  background-color: blue;
-  grid-area: project-head;
-  justify-content: center;
-  padding: 20px;
-}
-.project-head > p,
-h1 {
-  text-align: center;
-}
-
-.projects {
-  display: grid;
-  height: 75%;
-  border: 1px solid black;
-  /* justify-content: center; */
-  align-items: center;
-  margin-bottom: 150px;
-  text-align: center;
-  border-radius: 25px;
-  margin: 0 20px;
-}
-.projects > div > img {
-  width: 250px;
-  height: 250px;
-  border-radius: 25px;
-  margin-top: 5px;
-}
-
-.project1 {
-  /* background-color: bisque; */
-  grid-area: project1;
-}
-
-.project2 {
-  /* background-color: blanchedalmond; */
-  grid-area: project1;
-}
-
-.project2 {
-  /* background-color: blanchedalmond; */
-  grid-area: project3;
-}
-
-div.projects > div > div > a > button {
-  padding: 12px;
-  border-radius: 25px;
-  border: 1px solid black;
-  cursor: pointer;
-  font-size: 12px;
-  margin-bottom: 30px;
-}
-
-div.projects > div > div > a > button:hover {
-  background-color: black;
-  color: white;
-}
-
-#projects > a > i {
-  width: 100%;
-  justify-content: end;
-  background-color: blue;
-  font-size: 25px;
-  text-align: end;
-  padding: 0;
 }

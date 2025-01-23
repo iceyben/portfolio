@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: blue; */
+    /* background-color: white; */
   }
 
   .home {
@@ -81,6 +81,7 @@
   #about\ about2 > div.content > img {
     grid-area: img;
     background-color: #f5f5f5;
+    justify-content: center;
     margin-left: 35%;
     margin-bottom: -70px;
     margin-top: 70px;
